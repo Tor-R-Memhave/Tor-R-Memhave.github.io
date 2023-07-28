@@ -1,1 +1,721 @@
-Hello World!
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tor R. Memhave</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/bear.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/me.png" alt="Tor Rasmus Memhave" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Tor Rasmus Memhave">Tor Rasmus<br>Memhave</h1>
+
+          <p class="title">MRI and MRS<br>X-nuclei<br>Neuroscience</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <address>tmemhave(at)dpz.eu</address>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Göttingen, Germany</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.dpz.eu/de/abteilung/funktionelle-bildgebung/ueber-uns.html" class="social-link">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://twitter.com/TMemhave" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.researchgate.net/profile/Tor-Memhave" class="social-link">
+              <ion-icon name="document-outline"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>CV</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm PhD student at the Functional Imaging Laboratory at the German Primate Center in Göttingen, Germany. The focus of my PhD is to expand the capabilities of magnetic resonance imaging (MRI) and spectroscopy (MRS). Specifically, I am working on developing and improving X-nuclei (non-proton) MRI/S for in vivo measurements in rodents. 
+          </p>
+
+          <p>
+            My work combines elements of neuroscience, chemistry/physics, and magnetic resonance research. I am particularly interested in developing MR tools, which help understand illnesses and the drugs used to treat them. In my research, I work on various models from cell cultures via small animal models to healthy human volunteers. 
+          </p>
+
+
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Scientific interests</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/logo-brain.png" alt="ImageBrain" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Lithium and Psychiatric illnesses</h4>
+
+                <p class="service-item-text">
+                  Investigating the impact of lithium treatment on disease models to better understand the mechanism of action of lithium.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/logo-hba.png" alt="Heart-Brain axis" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Brain-heart axis</h4>
+
+                <p class="service-item-text">
+                  Development and testing of tools to better understand the interaction of the brain and heart, especially in aging.
+                </p>
+              </div>
+
+            </li>            
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/logo-li7.png" alt="Lithium-7 MRI" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Lithium-7 MRI</h4>
+
+                <p class="service-item-text">
+                  Developing pre-clinical in vivo lithium-7 MRI at physiological concentrations.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/logo-xnuclei.png" alt="X-nuclei MRS" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">X-nuclei spectroscopy</h4>
+
+                <p class="service-item-text">
+                  Using non-proton spectroscopy and imaging to understand brain and heart metabolism.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+          </section>
+
+        </div>
+
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="cv" data-page="cv">
+
+        <header>
+          <h2 class="h2 article-title">Curriculum Vitae</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">PhD Neuroscience</h4>
+
+              <span>2020 — 2023</span>
+
+              <p class="timeline-text">
+                Functional Imaging Laboratory at the German Primate Center, Göttingen<br>International Max Planck Research School for Neurosciences, University of Göttingen, Germany
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">MSc. Neuroscience</h4>
+
+              <span>2018 — 2020</span>
+
+              <p class="timeline-text">
+                MSc. Neuroscience, International Max Planck Research School for Neurosciences, University of Göttingen, Germany<br> Thesis with Prof. Dr. Susann Boretius: "The development and optimization of X-nuclei magnetic resonance imaging for small animal research: lithium, phosphorus, and a novel paraCEST contrast agent"
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">BSc. Chemistry</h4>
+
+              <span>2015 — 2018</span>
+
+              <p class="timeline-text">
+                Department of Chemistry, University of Copenhagen, Denmark.<br>Thesis with Prof. Morten Bjerrum: "Metal Catalyzed Oxidation of β-lactoglobulin: Using β-lactoglobulin to look at oxidative protein damage in relation to neurodegenerative diseases"
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+      <!--
+        - #Supervision
+      -->
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Supervision</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Master thesis</h4>
+
+              <span>2021 — 2022</span>
+
+              <p class="timeline-text">
+                "Development of a culture system and a custom pipeline for the acquisition and analysis of magnetic resonance spectroscopy data from primary skin fibroblasts"
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Lab rotation student</h4>
+
+              <span>2021</span>
+
+              <p class="timeline-text">
+                "Machine learning techniques for the analysis of magnetic resonance spectroscopy data applied to an apolipoprotein E knock-out mouse model"
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <!--
+        - #Teaching
+        -->
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Teaching</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">MRI Applications</h4>
+
+              <span>Since 2022</span>
+
+              <p class="timeline-text">
+                Lectures on data formats and spectroscopy
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Principles of MRI</h4>
+
+              <span>Since 2022</span>
+
+              <p class="timeline-text">
+                Lectures of spectroscopy and paramagnetic contrast enhancement
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">MRI for Neuroscience</h4>
+
+              <span>Since 2020</span>
+
+              <p class="timeline-text">
+                Tutor/teaching assistant in the MRI and fMRI modules of the International Max Planck Research School for Neurosciences
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Languages:</h5>
+              </div>
+              <p class="skills-lists">English<br>Danish<br>German</p>
+
+            </li>
+
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Programming:</h5>
+              </div>
+              <p class="skills-lists">Arduino IDE<br>git<br>MATLAB<br>python<br>shell scripting<br>SQL</p>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">3D Software:</h5>
+              </div>
+              <p class="skills-lists">FreeCAD<br>KiCad<br>PrusaSlicer</p>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="projects" data-page="projects">
+
+        <header>
+          <h2 class="h2 article-title">projects</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Lithium</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Spectroscopy</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Heart/Brain aging</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Science art</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Lithium</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Spectroscopy</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Heart/Brain aging</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Science art</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="lithium">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project_Li7.png" alt="EMIM-2021" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Lithium-7 MRI/S</h3>
+
+                <p class="project-category">In vivo lithium-7 MRI/S from healthy mice on a lithium diet.</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="lithium">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project_MultiNuclei.png" alt="EMIM-2022 (Multi)" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Lithium-enriched diet in wild-type mice</h3>
+
+                <p class="project-category">How does a lithium-enriched diet impact the brain of healthy, wild-type mice?</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="heart/brain aging">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project_Calli.png" alt="EMIM-2022 (Calli)" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Phosphorus-31 MRS of the heart</h3>
+
+                <p class="project-category">Cardiac phosphorus-31 MRS in the common marmosets.</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="spectroscopy">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project_LCModel.png" alt="EMIM-2023 (LCModel)" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">LCModel start parameters</h3>
+
+                <p class="project-category">Peaking inside the black box and investigating the effect of changing the start parameters of LCModel.</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="science art">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/image_spectrospec.png" alt="SpectroSpectrometer" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Spectro-spectrometer</h3>
+
+                <p class="project-category">Ever wondered what a spectrometer made of spectra would look like?</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="science art">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/image_mcmc.png" alt="Multi-color,multi-contrast" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Multi-color, multi-contrast</h3>
+
+                <p class="project-category">Beautiful brains in many colors.</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <footer class="footer">
+    <p>
+      Website made using <a href="https://github.com/codewithsadee/vcard-personal-portfolio">vcard-personal-portfolio template</a> 
+    </p>
+  </footer>
+
+</body>
+
+
+
+</html>
